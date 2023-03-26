@@ -14,6 +14,7 @@ body {
     background-color: powderblue;
     width: 100%;
     display: inline-flex;
+    height: 50px;
 }
 
 .menu-link {
@@ -35,11 +36,31 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     width: 50%;
+    vertical-align: bottom;
 }
 
 
 .menu li {
     display: inline-block;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
+div.gezinti ul:nth-child(1) {
+    padding-left: 100px;
+}
+
+div.sosyal li>a>img {
+    padding-bottom: 10px;
+}
+
+.baslik {
+    margin-bottom: 0px;
+}
+
+.slogan {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    color: darkblue;
+    text-align: center;
+}
